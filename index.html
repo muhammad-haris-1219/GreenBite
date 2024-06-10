@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign Up</title>
+</head>
+
+ <body >
+  
+  <!-- signUp page -->
+
+<div  id="main_signup">
+  <h1 id="signup">signup</h1>
+  <div  id="signup_form">
+      <input type="text" id="user_name" placeholder="Enter Your Name" required>
+      <input type="text" id="user_city" placeholder="Enter Your City" >
+      <input type="email" id="user_email" placeholder="Enter Your Email" required>
+      <input type="password" id="user_password" placeholder="Create Password" required>
+      <input type="search" id="signup_admin" placeholder="Only For Admin">
+      <button id="signup_btn" onclick="signUp()">SignUp</button>
+  </div>
+</div>
+
+
+
+
+<!-- logIn page -->
+
+<div id="main_login">
+  <h1 id="login">login</h1>
+  <div  id="login_form">
+      <input type="email" id="login_email" placeholder="Enter Your Email" required>
+      <input type="password" id="login_password" placeholder="Create Password" required>
+      <input type="search" id="login_admin" placeholder="Only For Admin">
+      <button type="submit" onclick="logIn()" id="login_btn" type="button">Login</button>
+  </div>
+</div>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
